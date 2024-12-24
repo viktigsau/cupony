@@ -1,11 +1,13 @@
 function loadCupons(domain, Element) {
-    const url = `https://api.cupony.viktigsau.org/cupons?domain=${domain}`;
+    const url = `http://localhost:5000/cupons?domain=${domain}`;
 
+    alert("fetching");
     fetch(url)
     .then(response => {
         if (response.ok) {
             return response.json();
         }
+        alert("not ok");
         throw new Error(`the server responded with ${response.status}`)
     }).then(data => {
         if (data.error != null) throw new Error(`the server retured an error ${error}`)
