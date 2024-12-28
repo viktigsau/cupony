@@ -1,8 +1,14 @@
 import json
+import os
+
 
 class DB:
     def __init__(self, path: str='DB.json'):
-        self.path = path
+        self.path = os.path.abspath(path)
+
+        if not os.path.exists(self.path):
+            with open(self.path, "x") as file:
+                ...
 
     def get(self, key):
         with open(self.path) as f:
