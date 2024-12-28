@@ -5,6 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cupony</title>
 
+    <style>
+        .cupon {
+            width: 100px;
+            height: fit-content;
+
+            flex-shrink: 0;
+
+            background-color: #0c0;
+
+            padding: 10px;
+
+            border-radius: 10px;
+
+            border-style: dashed;
+        }
+
+        #cupons {
+            width: 500px;
+            height: fit-content;
+
+            flex-wrap: wrap;
+
+            display: flex;
+
+            gap: 10px;
+        }
+
+        body {
+            background-color: #090;
+        }
+    </style>
+
     <script src="fetch.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>

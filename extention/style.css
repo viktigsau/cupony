@@ -1,0 +1,13 @@
+.cupon {
+    width: fit-content;
+    height: fit-content;
+
+    background-color: #0c0;
+}
+
+#cupons {
+    width: fit-content;
+    height: fit-content;
+
+    background-color: #090;
+}
