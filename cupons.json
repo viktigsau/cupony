@@ -1,10 +1,8 @@
 {
-    "viktigsau%2Eorg": [
+    "example%2Ecom":[
         {
-            "code": "50% off",
-            "lastGood": "5h"
+            "code":"test code",
+            "lastGood":"5h"
         }
-    ],
-    "chatgpt%2Ecom": [],
-    "localhost": []
+    ]
 }
