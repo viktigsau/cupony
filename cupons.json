@@ -1,40 +1,10 @@
 {
     "viktigsau%2Eorg": [
         {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
-        },
-        {
-            "code": "50% off",
-            "lastGood": "5h"
+            "code":"test code",
+            "lastGood":"5h"
         }
     ],
     "chatgpt%2Ecom": [],
-    "localhost": [],
-    "": [],
-    "github%2Ecom": []
+    "localhost": []
 }
